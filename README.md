@@ -1,4 +1,4 @@
-🔢 React Countdown & State Update Demo
+<img width="1209" height="782" alt="image" src="https://github.com/user-attachments/assets/1cf85cb0-3a94-494c-9463-400d695fb165" />🔢 React Countdown & State Update Demo
 
 A simple React application demonstrating state management using useState, including:
 
@@ -63,7 +63,10 @@ React re-renders properly due to immutable state updates
 
 🧪 Example Code Snippet
 const newData = { ...ci };
-newData.user = 'Abhishek';
+newData.user = 'Abhishek';<img width="1209" height="782" alt="Screenshot 2025-12-28 115157" src="https://github.com/user-attachments/assets/89eee1ee-639c-4523-8797-d419b0b3bdbc" />
+<img width="691" height="410" alt="Screenshot 2025-12-28 103607" src="https://github.com/user-attachments/assets/a7708c51-8989-4deb-b0c2-f5a8f33aef7c" />
+![Uploading image.png…]()
+
 newData.age = 20;
 setci(newData);
 
