@@ -1,16 +1,72 @@
-# React + Vite
+🔢 React Countdown & State Update Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application demonstrating state management using useState, including:
 
-Currently, two official plugins are available:
+Counter increment/decrement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Updating object state immutably using the spread operator
 
-## React Compiler
+Basic layout using Flexbox
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is ideal for beginners learning how React state works under the hood.
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+➕ Increment counter
+
+➖ Decrement counter
+
+🔁 Update object state using spread operator
+
+📦 Demonstrates immutable state updates
+
+🎨 Clean UI with Flexbox alignment
+
+🧠 Concepts Covered
+
+useState hook
+
+Functional components
+
+Event handling in React
+
+Spread operator (...) for objects
+
+Avoiding direct state mutation
+
+Basic CSS Flexbox layout
+
+🛠 Tech Stack
+
+React.js
+
+JavaScript (ES6+)
+
+CSS3
+
+HTML5
+
+📂 Project Structure
+src/
+│── Countdown.jsx
+│── App.jsx
+│── index.js
+│── styles.css
+
+▶️ How It Works
+
+The counter value updates using useState
+
+User data (name and age) is updated safely using the spread operator
+
+React re-renders properly due to immutable state updates
+
+🧪 Example Code Snippet
+const newData = { ...ci };
+newData.user = 'Abhishek';
+newData.age = 20;
+setci(newData);
+
+📸 Preview
+
+Shows a centered counter card with buttons aligned neatly below it for user interaction.
